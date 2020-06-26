@@ -2,14 +2,16 @@ import React from "react"
 // import ProjectImage from "../images/projectImage.PNG"
 import pandemicImg from "../images/fusion.jpg"
 import VolunteerImg from "../images/IMG_VolunteerPic.PNG"
+import CodingTestImg from "../images/Coding Test.PNG"
+import WeatherDashboardImg from "../images/Weather Dashboard.PNG"
 import ProjectImage from "../components/projectImage"
 function Projects() {
     const projectList =[
         {
             name: "Volunteer",
             image: VolunteerImg,
-            githubUrl:"",
-            deployedUrl:"https://apatel922.github.io/Project1/",
+            githubUrl:"https://github.com/AJFree458/Project-2",
+            deployedUrl:"https://project2-volunteer.herokuapp.com/",
             key:"0",
 
         },
@@ -33,6 +35,20 @@ function Projects() {
             deployedUrl:"https://andrewjhrussell.github.io/passwordGenerator/",
             githubUrl:"https://github.com/Andrewjhrussell/passwordGenerator.git",
             key:"3"
+        },
+        {
+            name:"Coding Test",
+            image: CodingTestImg,
+            deployedUrl:"https://andrewjhrussell.github.io/Coding-Test/",
+            githubUrl:"https://github.com/Andrewjhrussell/Coding-Test.git",
+            key:"4"
+        },
+        {
+            name:"WeatherBroad",
+            image: WeatherDashboardImg,
+            deployedUrl:"https://andrewjhrussell.github.io/WeatherBroad/.",
+            githubUrl:"https://github.com/Andrewjhrussell/WeatherBroad.git",
+            key:"5"
         },
         
         

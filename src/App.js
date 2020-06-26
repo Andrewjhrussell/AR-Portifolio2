@@ -14,7 +14,7 @@ export default function App() {
     <Router>
       <div className="main">
       <Header />
-      <div  style={{backgroundImage: `url(${Background})`}}>
+      <div className="page" style={{backgroundImage: `url(${Background})`}}>
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
